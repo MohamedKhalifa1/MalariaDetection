@@ -4,9 +4,9 @@ This repository contains code for training Convolutional Neural Network (CNN) mo
 
 ## Models
 
-1. **Sequential Model**: The Sequential approach is implemented in `malaria_classifiactionm.ipynb`. This file contains the code for building, training, and evaluating the Sequential CNN model for malaria detection.
+1. **Sequential Model**: The Sequential approach is implemented in `malaria_classifiaction.ipynb`. This file contains the code for building, training, and evaluating the Sequential CNN model for malaria detection.
 
-2. **Functional API Model**: The Functional API approach is implemented in `functional-api-malaria.ipynb`. This file contains the code for building, training, and evaluating the Functional API CNN model for malaria detection.
+2. **Functional API Model**: The Functional API approach is implemented in `functional_api_malaria.ipynb`. This file contains the code for building, training, and evaluating the Functional API CNN model for malaria detection.
 
 3. **Subclassing Model**: The Subclassing approach is implemented in `subclassing_model.ipynb`. This file contains the code for building, training, and evaluating the Subclassing CNN model for malaria detection.
 
@@ -18,12 +18,14 @@ Each model includes visualization techniques and calculates the following evalua
 - Precision
 - Recall
 - Accuracy
-
+- Confusion matrix
+- AUC ROC Plot
+  
 ## Repository Structure
 
 .
-├── malaria_classifiactionm.ipynb
-├── functional-api-malaria.ipynb
+├── malaria_classifiaction.ipynb
+├── functional_api_malaria.ipynb
 ├── subclassing_model.ipynb
 └── README.md
 
